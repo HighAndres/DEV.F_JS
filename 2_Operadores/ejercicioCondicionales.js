@@ -1,4 +1,5 @@
-/*console.log('Ejercicio condicionales');
+/*
+console.log('Ejercicio condicionales');
 
 
 //Se declaran variables
@@ -18,7 +19,7 @@ if(genero === 'M' && edad >= 18 ){
     let embarazo = prompt('Estas embarazada?')
 }
 
-if(edad >= 30 && !embarazo){
+if(edad >= 30 && embarazo === ''){
     console.log('tienes mas de 30 si puedes vacunarte')
 }else if (edad >= 18 && genero === 'M' && embarazo === 'si'){
     console.log('Eres mujer y estas embarazada puedes vacunarte')
@@ -29,6 +30,5 @@ if(edad >= 30 && !embarazo){
 }
 
 */
-
 
 
