@@ -51,8 +51,8 @@ if( pregunta === 'si'){
   
 */
 
-
-
+/*
+//2-
 
 var num = Number(prompt('Ingresa un numero'));
  
@@ -62,5 +62,37 @@ if(num%2 === 0){
 }else{
     console.log('No es divisible entre 2')
 }
+*/
 
 
+//10-
+
+var nivel = prompt('Que nivel de curso estas cursando? Course//Carrera//Master ')
+var beca = prompt('Cuentas con alguna beca? fb//Google//Jesua//No' )
+var descuento = 0;
+
+if (beca ==='fb'){
+    descuento = 20;
+}else if (beca === 'Google'){
+    descuento = 15 ; 
+}else if(beca === 'Jesua'){
+    descuento === 50 ;
+}
+
+
+if(nivel === 'Course'){
+    var mensualidad = 49999 - 4999+descuento/100;
+    var totalCurso = mensualidad*2;
+
+}else if(nivel === 'Carrera'){
+    var mensualidad = 3999 - 3999+descuento/100;
+    var totalCurso = mensualidad*6;
+
+}else if(nivel === 'Master'){
+    var mensalidad = 2999 - 2999+descuento/100;
+    var totalCurso = mensualidad*12;
+}
+    
+
+
+console.log(`Tu curso es ${nivel} y pagarás una mensualidad de $4999 ${mensualidad} y un total de ${totalCurso}`);
