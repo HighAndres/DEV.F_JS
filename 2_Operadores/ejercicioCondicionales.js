@@ -19,7 +19,7 @@ if(genero === 'M' && edad >= 18 ){
     let embarazo = prompt('Estas embarazada?')
 }
 
-if(edad >= 30 && embarazo === ''){
+if(edad >= 30 && embarazo === 'si'){
     console.log('tienes mas de 30 si puedes vacunarte')
 }else if (edad >= 18 && genero === 'M' && embarazo === 'si'){
     console.log('Eres mujer y estas embarazada puedes vacunarte')
@@ -30,5 +30,10 @@ if(edad >= 30 && embarazo === ''){
 }
 
 */
+
+
+
+
+
 
 
