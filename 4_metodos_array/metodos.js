@@ -1,4 +1,4 @@
-let frutas = ['uva', 'jitomate', 'sandia'];
+//let frutas = ['uva', 'jitomate', 'sandia'];
 // index        0         1          2
 
 // console.log(frutas[3]);
@@ -32,9 +32,9 @@ let frutas = ['uva', 'jitomate', 'sandia'];
 // index != lenght
 // total de elementos de un array
 
-frutas.length;
+//frutas.length;
 
-console.log(frutas);
+//console.log(frutas);
 // console.log(history);
 
 
@@ -49,10 +49,12 @@ console.log(frutas);
 // split crear un array, apartir de un objeto iterable.
 // un objeto iterable es el que se puede recorrer
 
-// let listaSuper = 'Cebolla, Perejil, Tomate, Calabaza';
-// let listaSuperArray = listaSuper.split(' ');
+let listaSuper = 'Cebolla, Perejil, Tomate, Calabaza';
+console.log(listaSuper); //string
+let listaSuperArray = listaSuper.split(' '); //separacion de letras o palabras por comas
+console.log(listaSuperArray);//array
 
-// console.log(listaSuperArray);
+
 // slice
 // dos parametros start, end
 // truncar el array
@@ -81,18 +83,18 @@ console.log(frutas);
 // let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
 // index        0        1           2         3
 // reverse muta el array original OJO!!!
-console.log(frutas, 'original');
-frutas.reverse();
-console.log(frutas, 'reverse');
+//console.log(frutas, 'original');
+//frutas.reverse();
+//console.log(frutas, 'reverse');
 
-let verduras = ['cebolla', 'cilantro', 'perijil'];
+//let verduras = ['cebolla', 'cilantro', 'perijil'];
 // concat juntar o unir
 //
 
-let listaSaludable = frutas.concat(verduras);
-console.log(listaSaludable);
-let proteina = ['pollito', 'pescado'];
+//let listaSaludable = frutas.concat(verduras);
+//console.log(listaSaludable);
+//let proteina = ['pollito', 'pescado'];
 
 // operador spread operator ... tres puntos es el spread
-let listaSaludable2 = [...frutas, ...verduras, ...proteina];
-console.log(listaSaludable2);
+//let listaSaludable2 = [...frutas, ...verduras, ...proteina];
+//console.log(listaSaludable2);
