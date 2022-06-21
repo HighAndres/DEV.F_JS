@@ -32,9 +32,9 @@ var materias = ['matematicas', 'español', 'fisica'];
 console.log(materias);
 console.log(materias.length); 
 
-//Metodos de arreeglos
+//Metodos de arreglos
 
-materias.push('programacion'); // push sirve para gagregar un elemento al final del arreglo
+materias.push('programacion'); // push sirve para agregar un elemento al final del arreglo
 console.log(materias);
 materias.pop();//  pop quita el ultimo el elemnto del arreglo
 console.log(materias);
