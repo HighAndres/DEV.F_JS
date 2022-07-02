@@ -49,10 +49,10 @@
 // split crear un array, apartir de un objeto iterable.
 // un objeto iterable es el que se puede recorrer
 
-let listaSuper = 'Cebolla, Perejil, Tomate, Calabaza';
-console.log(listaSuper); //string
-let listaSuperArray = listaSuper.split(' '); //separacion de letras o palabras por comas
-console.log(listaSuperArray);//array
+//let listaSuper = 'Cebolla, Perejil, Tomate, Calabaza';
+//console.log(listaSuper); //string
+//let listaSuperArray = listaSuper.split(' '); //separacion de letras o palabras por comas o cualquier separador para objetos iterantes
+//console.log(listaSuperArray);//array/arreglo 
 
 
 // slice
@@ -62,16 +62,18 @@ console.log(listaSuperArray);//array
 // console.log(frutas, 'array original');
 // let nuevaLista = frutas.slice(1, 3);
 // console.log(nuevaLista);
-// let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
+
+
+let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
 // // index        0        1           2         3
 
-// // metodo splice
-// frutas.splice(1, 2, 'naranaja', 'toronja', 'lima');
-// console.log(frutas);
+// // metodo splice sirve para insertar nueva informacion a el array si no se declara la funcion al principio y se agregan mas tomaran el lugar inmediato
+//frutas.splice(1, 2, 'naranaja', 'toronja', 'lima');
+//console.log(frutas);
 
 // // metodo sort
-// let frutasSort = frutas.sort();
-// // console.log(frutasSort);
+//let frutasSort = frutas.sort();
+//console.log(frutas); //cuando son strings se orfdenan por orden alfabetico 
 
 // // callback, es una funcion dentro de otra funcion
 
@@ -79,21 +81,22 @@ console.log(listaSuperArray);//array
 // let numerosSort = numeros.sort((a, b) => a - b);
 // // current = Actual , next = siguente
 // console.log(numerosSort);
-
-// let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
+/*
+ let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
 // index        0        1           2         3
-// reverse muta el array original OJO!!!
-//console.log(frutas, 'original');
-//frutas.reverse();
-//console.log(frutas, 'reverse');
-
-//let verduras = ['cebolla', 'cilantro', 'perijil'];
+reverse muta el array original OJO!!!
+console.log(frutas, 'original');
+frutas.reverse();
+console.log(frutas, 'reverse');
+*/
+let verduras = ['cebolla', 'cilantro', 'perijil'];
 // concat juntar o unir
 //
 
-//let listaSaludable = frutas.concat(verduras);
+let listaSaludable = frutas.concat(verduras);
 //console.log(listaSaludable);
 //let proteina = ['pollito', 'pescado'];
+//solo se pueden concatenar dos variables
 
 // operador spread operator ... tres puntos es el spread
 //let listaSaludable2 = [...frutas, ...verduras, ...proteina];

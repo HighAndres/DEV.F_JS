@@ -1,4 +1,24 @@
-console.log("ciclos");
+
+//ciclo for
+let contador = 0;
+for (let i = 1; i <= 10; i++);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//console.log("ciclos");
 
 //for(valor inicial ; condición para que el ciclo continue ; aumento del iterador)
 
@@ -20,15 +40,17 @@ console.log("ciclos");
 //10 x 2 = 20
 
 //  uso de for para un array
-let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
+//
+
+//let frutas = ['uva', 'jitomate', 'sandia', 'manzana'];
 // index        0        1           2         3
 
-for (let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+//for (let i = 0; i < frutas.length; i++) {
+   // console.log(frutas[i]);
     // el frutas[i] es el elemento actual del array
     // el operador [] es para acceder a un elemento del array
     
-}
+//}
 
 
 
