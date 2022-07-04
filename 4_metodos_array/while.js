@@ -1,33 +1,39 @@
+
+
+
 // console.log('hola');
 // tema: ciclo while
 // let nuevoArray = ['1', '2'];
 // [('4', '4')].length;
 // cuando es bueno ocupar el while: 
 // cuando estemos seguros de que la condicion se cumpla
-let contador = 0;
-while (contador < 5) {
+/*let contador = 0;
+while (contador < 6) {
   //   el codigo que se va ajecutar mienstra el while sea true
   console.log(contador, 'hola');
   // contador = contador + 1;
-  contador++;
+  contador++; //es lo mismo que arriba
 }
-
+*/
 
 let contador2 = 0;
 do {
-  //   se ejecuta lo que esta dentro de este bloque mientras el while se true
+  //   se ejecuta lo que esta dentro de este bloque mientras els while se true
   // contador = contador + 1;
   console.log(contador2);
 } while (contador2 < 5);
+*/
 
-
-// operador ! Logical not
-// crea una contradiccion
-
+/*
+//operador ! Logical not
+//crea una contradiccion
+// cada ! es un falso o verdadero 
 let estaLLoviendo = false;
-console.log(!!estaLLoviendo);
+console.log(!estaLLoviendo);
+*/
 
 
+/*
 // Ejemplo #2
 // Guarda un arreglo de valores introducidos
 // Si el usuario no introduce un valor, termina el ciclo.
@@ -38,5 +44,5 @@ while (!(userInput=="")) {
   arreglo.push(userInput);
 }
 console.log("Introduciste estos valores: " + arreglo);
-
+*/
 
