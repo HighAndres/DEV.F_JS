@@ -5,24 +5,28 @@
 // tema: ciclo while
 // let nuevoArray = ['1', '2'];
 // [('4', '4')].length;
-// cuando es bueno ocupar el while: 
-// cuando estemos seguros de que la condicion se cumpla
-/*let contador = 0;
+// cuando es bueno ocupar el while: cuando estemos seguros de que la condicion se cumpla
+/*
+let contador = 0;
 while (contador < 6) {
   //   el codigo que se va ajecutar mienstra el while sea true
-  console.log(contador, 'hola');
+  console.log(contador, 'Ciclo while');
   // contador = contador + 1;
   contador++; //es lo mismo que arriba
 }
 */
 
+/*
+//metodo DO-WHILE
 let contador2 = 0;
 do {
   //   se ejecuta lo que esta dentro de este bloque mientras els while se true
-  // contador = contador + 1;
+  // contador = contador + 1 o contador++;
+  contador2++;
   console.log(contador2);
 } while (contador2 < 5);
 */
+
 
 /*
 //operador ! Logical not
