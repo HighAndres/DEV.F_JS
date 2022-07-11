@@ -99,34 +99,79 @@ function maximo2Num(a,b){
 
 console.log(maximo2Num('8','7'));
  */
-
-
-
+/*
  //Hacer una función que halle el máximo entre tres números
 let numeros = [3,4,5,6];
 
 Math.max(...numeros);
 console.log(numeros);
 
-
+Hacer una función que calcule el IVA de una cantidad (16%)
+*/
 
 /*
+//<h3>4</h3>
+ //Hacer una función para ingresar cualquier letra del alfabeto  
+ //y verifique si es vocal o consonante
 
- Hacer una función que calcule el IVA de una cantidad (16%)
+ function verificadorLetra(letra){
+    let vocales = ['a','e','i','o','u']
+    let letraMinuscula = letra.toLowerCase() //es para convertir si ul usuario pone una letra en mayuscula se pase a minuscula
+     if(vocales.includes(letraMinuscula)){
+        return'es vocal'
+     }else{
+        return 'es una consonante'
+    
+     }
+     
+ }
+  
+console.log(verificadorLetra('a'));
+*/
+ 
+/*
+//<h3>5</h3>
+//Hacer una función que verifique si un número es positivo o negativo
+function VerificadorNumero(a){
+    if(a > 0){
+        return 'positivo'
+    }else if(a === 0){
+        return 'Es igual a 0'
+    }else{
+        return 'negativo'
+    }
+}
+let numero = prompt('Ingresa un numero');
+console.log(VerificadorNumero(numero));
 
-<h3>4</h3>
- Hacer una función para ingresar cualquier letra del alfabeto  
- y verifique si es vocal o consonante
 
-<h3>5</h3>
- Hacer una función que verifique si un número es positivo o negativo
+*/
+ 
 
-<h3>6</h3>
- Hacer una función que imprima todos los números pares entre 1 y 100
+//<h3>7</h3>
+//Hacer una función que halle la suma de todos los números naturales entre 1 y n
+/*
+function factorial(a){
+if(typeof Number(a) !== 'number'){ //el number espara cotrolar el tipo de datos que entra osea number
+    return 'esto es un'
+}
 
-<h3>7</h3>
- Hacer una función que halle la suma de todos los números naturales entre 1 y n
+    let resul = 0
 
+    for(let i = 1; i <= a; i++){
+        resul = resul +i
+    }
+  return resul
+}
+
+var num = prompt('Numeros ha sumar')
+console.log(factorial(num))
+
+*/
+
+
+
+ /*
 <h3>8</h3>
  Hacer una función que imprima una pirámide de asteriscos como la siguiente:
 
