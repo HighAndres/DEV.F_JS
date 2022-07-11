@@ -192,13 +192,152 @@ EXTRA pasando una altura a la funcion crea la piramide segun ese alto:
 //              3     *******
 //              4    *********
 
-
-<h3>9</h3>
-Crea un programa que pregunte al usuario un número. Usando el archivo de arreglo de Pokémons, mostrar solo los nombres de los Pokémons cuyos números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario. 
+*/
+//<h3>9</h3>
+//Crea un programa que pregunte al usuario un número. Usando el archivo de arreglo de Pokémons, mostrar solo los nombres de los Pokémons cuyos números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario. 
 https://pastebin.com/Zzk8g7Z6
+/*
+console.log(typeofArrego(randomArreglo))
+let pokemonesArray = [
+    'bulbasaur',
+    'ivysaur',
+    'venusaur',
+    'charmander',
+    'charmeleon',
+    'charizard',
+    'squirtle',
+    'wartortle',
+    'blastoise',
+    'caterpie',
+    'metapod',
+    'butterfree',
+    'weedle',
+    'kakuna',
+    'beedrill',
+    'pidgey',
+    'pidgeotto',
+    'pidgeot',
+    'rattata',
+    'raticate',
+    'spearow',
+    'fearow',
+    'ekans',
+    'arbok',
+    'pikachu',
+    'raichu',
+    'sandshrew',
+    'sandslash',
+    'nidoran-f',
+    'nidorina',
+    'nidoqueen',
+    'nidoran-m',
+    'nidorino',
+    'nidoking',
+    'clefairy',
+    'clefable',
+    'vulpix',
+    'ninetales',
+    'jigglypuff',
+    'wigglytuff',
+    'zubat',
+    'golbat',
+    'oddish',
+    'gloom',
+    'vileplume',
+    'paras',
+    'parasect',
+    'venonat',
+    'venomoth',
+    'diglett',
+    'dugtrio',
+    'meowth',
+    'persian',
+    'psyduck',
+    'golduck',
+    'mankey',
+    'primeape',
+    'growlithe',
+    'arcanine',
+    'poliwag',
+    'poliwhirl',
+    'poliwrath',
+    'abra',
+    'kadabra',
+    'alakazam',
+    'machop',
+    'machoke',
+    'machamp',
+    'bellsprout',
+    'weepinbell',
+    'victreebel',
+    'tentacool',
+    'tentacruel',
+    'geodude',
+    'graveler',
+    'golem',
+    'ponyta',
+    'rapidash',
+    'slowpoke',
+    'slowbro',
+    'magnemite',
+    'magneton',
+    'farfetchd',
+    'doduo',
+    'dodrio',
+    'seel',
+    'dewgong',
+    'grimer',
+    'muk',
+    'shellder',
+    'cloyster',
+    'gastly',
+    'haunter',
+    'gengar',
+    'onix',
+    'drowzee',
+    'hypno',
+    'krabby',
+    'kingler',
+    'voltorb'
+  ]
+  
+    function pokemonesNumero(n) {
+  
+      // el numero ingresado por el usuario no debe ser mayor al array 
+  
+      // guardar los resultados en otro array y retornarlo
+  
+  
+      for (let i = 1; i <= n; i++ ){
+        if (i % 5 === 0) {
+          console.log(pokemonesArray[i])
+        }
+      }
+    }
+  
+    console.log(pokemonesNumero(100))
 
 
-<h3>10</h3>
-Crea un programa que recorra el arreglo [4,”dos”,8,”tres”,5,9,1,”cero”] y muestre en consola solo los elementos que son tipo número.
 */
 
+
+//<h3>10</h3>
+//Crea un programa que recorra el arreglo [4,”dos”,8,”tres”,5,9,1,”cero”] y muestre en consola solo los elementos que son tipo número.
+/*
+
+let randomArreglo = [4,'dos',8,'tres',5,9,1,'cero']
+
+function typeofArrego(arreglo) {
+
+  let numeros = []
+
+  for (let i = 0; i < arreglo.length; i++){    
+      if (typeof arreglo[i] === 'number') {
+        numeros.push(arreglo[i])
+      }
+    }   
+     return numeros
+  }
+
+
+*/
