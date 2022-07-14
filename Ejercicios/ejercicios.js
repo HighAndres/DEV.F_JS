@@ -20,7 +20,7 @@ if (numeroPar % 2 === 0){
  }
    numeroPar++
 }
-*/
+*/,,,
 
 //<h3>2</h3>
 //Escribir todos los números que terminan en 0 y estén entre 2 y 121
