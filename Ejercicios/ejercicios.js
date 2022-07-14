@@ -195,7 +195,7 @@ EXTRA pasando una altura a la funcion crea la piramide segun ese alto:
 */
 //<h3>9</h3>
 //Crea un programa que pregunte al usuario un número. Usando el archivo de arreglo de Pokémons, mostrar solo los nombres de los Pokémons cuyos números que son múltiplos de 5 desde 1 hasta el número introducido por el usuario. 
-https://pastebin.com/Zzk8g7Z6
+//https://pastebin.com/Zzk8g7Z6
 /*
 console.log(typeofArrego(randomArreglo))
 let pokemonesArray = [
